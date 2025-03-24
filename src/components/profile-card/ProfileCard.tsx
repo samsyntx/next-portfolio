@@ -28,7 +28,7 @@ export default function ProfileCard() {
       <div className="bg-white text-gray-800 px-12 py-10 rounded-xl flex flex-col items-center space-y-3">
         <div className="bg-gray-300 h-60 w-full max-w-52 rounded-xl overflow-hidden">
           <Image
-            src=""
+            src="https://gp.xom"
             alt="user"
             className="w-full h-full"
             height={100}
@@ -40,7 +40,7 @@ export default function ProfileCard() {
           Shubham Arora
         </p>
 
-        <p className="text-lg text-gray-500 text-center mt-20">
+        <p className="site-content text-center mt-20">
           A Software Engineer who has developed countless innovative solutions.
         </p>
 

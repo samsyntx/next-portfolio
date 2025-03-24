@@ -11,7 +11,7 @@ export const LinkedinIcon = ({
 }: propTypes) => {
   return (
     <svg
-      enable-background="new 0 0 32 32"
+      enableBackground="new 0 0 32 32"
       version="1.1"
       viewBox="0 0 32 32"
       width={w}
@@ -65,7 +65,7 @@ export const YoutubeIcon = ({
 }: propTypes) => {
   return (
     <svg
-      enable-background="new 0 0 24 24"
+      enableBackground="new 0 0 24 24"
       id="Layer_1"
       version="1.1"
       viewBox="0 0 24 24"
