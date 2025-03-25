@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
-        softgray: "var(--soft-gray)"
+        softgray: "var(--soft-gray)",
+        gray: "var(--gray)",
       },
     },
   },

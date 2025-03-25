@@ -8,7 +8,7 @@
   --primary: #f46c38;
   --secondary: #C5FF41;
   --soft-gray: #b6b4bd33;
-
+  --gray: #998F8F;
 }
 
 body {
@@ -19,6 +19,6 @@ body {
 
 @layer utilities {
   .site-content {
-    @apply text-lg text-[#998F8F] font-medium leading-relaxed;
+    @apply text-lg text-[var(--gray)] font-medium leading-relaxed;
   }
 }

@@ -1,42 +1,9 @@
 import {
   ArrowLongRightIcon,
-  Square3Stack3DIcon,
-  WindowIcon,
 } from "@heroicons/react/24/outline";
 import { twMerge } from "tailwind-merge";
-
-const features = [
-  {
-    id: 0,
-    title: "+2",
-    description: "Years of Experience",
-  },
-  {
-    id: 2,
-    title: "+25",
-    description: "Projects Completed",
-  },
-  {
-    id: 3,
-    title: "+20",
-    description: "Clients worldwide",
-  },
-];
-
-const highlight = [
-  {
-    id: 0,
-    title: "DYNAMIC ANIMATION, MOTION DESIGN",
-    icon: Square3Stack3DIcon,
-    link: "",
-  },
-  {
-    id: 1,
-    title: "FRAMER, FIGMA, WORDPRESS, REACTJS",
-    icon: WindowIcon,
-    link: "",
-  },
-];
+import { features } from "@/constant/data";
+import { highlight } from "@/constant/data";
 
 export default function Overview() {
   return (

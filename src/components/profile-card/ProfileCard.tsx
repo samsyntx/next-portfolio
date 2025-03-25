@@ -1,38 +1,19 @@
-import { InstagramIcon, LinkedinIcon, YoutubeIcon } from "@/constant/icons";
 import Image from "next/image";
+import { OwnerImage } from "@/constant/data";
 
-const socialLinks = [
-  {
-    id: "Linkedin",
-    label: "Linkedin",
-    icon: <LinkedinIcon h="20" w="20" color="var(--primary)" />,
-    link: "https://linkedin.com/in/samsyntx",
-  },
-  {
-    id: "Instagram",
-    label: "Instagram",
-    icon: <InstagramIcon h="23" w="23" color="var(--primary)" />,
-    link: "https://linkedin.com/in/samsyntx",
-  },
-  {
-    id: "Youtube",
-    label: "Youtube",
-    icon: <YoutubeIcon h="23" w="23" color="var(--primary)" />,
-    link: "https://linkedin.com/in/samsyntx",
-  },
-];
+import { socialLinks } from "@/constant/data";
 
 export default function ProfileCard() {
   return (
     <div className="relative overflow-hidden">
       <div className="bg-white text-gray-800 px-12 py-10 rounded-xl flex flex-col items-center space-y-3">
-        <div className="bg-gray-300 h-60 w-full max-w-52 rounded-xl overflow-hidden">
+        <div className="bg-gray-300 w-full h-60 max-w-52 rounded-xl overflow-hidden">
           <Image
-            src="https://gp.xom"
+            src={OwnerImage}
             alt="user"
-            className="w-full h-full"
-            height={100}
             width={100}
+            height={100}
+            className="w-full h-full object-cover"
           />
         </div>
 
